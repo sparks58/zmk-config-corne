@@ -48,10 +48,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB  &kp C_PREVIOUS    &kp UP_ARROW       &kp C_NEXT  &kp C_PLAY_PAUSE       &bt BT_NXT    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp PLUS  &kp ASTERISK    &kp BSPC
-&kp LCTRL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW        &bt BT_CLR       &bt BT_PRV    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp MINUS     &kp SLASH  &kp DELETE
-&kp LSHFT        &kp HOME         &kp END        &kp PG_UP     &kp PAGE_DOWN  &kp PRINTSCREEN    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp EQUAL     &kp INS
-                                              &kp LEFT_ALT            &trans        &kp SPACE         &kp RET        &trans  &kp NUMBER_0
+  &kp TAB  &kp C_PREVIOUS    &kp UP_ARROW       &kp C_NEXT  &kp C_PLAY_PAUSE    &kp C_VOLUME_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp PLUS  &kp ASTERISK    &kp BSPC
+&kp LCTRL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW             &none  &kp C_VOLUME_DOWN    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp MINUS     &kp SLASH  &kp DELETE
+&kp LSHFT        &kp HOME         &kp END        &kp PG_UP     &kp PAGE_DOWN    &kp PRINTSCREEN    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp EQUAL     &kp INS
+                                              &kp LEFT_ALT            &trans          &kp SPACE         &kp RET        &trans  &kp NUMBER_0
             >;
         };
 
