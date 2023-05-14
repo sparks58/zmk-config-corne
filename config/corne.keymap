@@ -7,7 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     conditional_layers {
@@ -71,10 +71,10 @@
 
         layer_3 {
             bindings = <
-      &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4    &kp F1  &kp F2  &kp F3   &kp F4   &kp F5   &kp F6
-&kp LEFT_CONTROL        &trans        &trans        &trans  &ext_power EP_TOG  &kp CAPSLOCK    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-      &kp LSHIFT        &trans        &trans        &trans             &trans        &trans    &trans  &trans  &trans   &trans   &trans   &trans
-                                                    &trans             &trans        &trans    &trans  &trans  &trans
+      &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F1  &kp F2  &kp F3   &kp F4   &kp F5   &kp F6
+&kp LEFT_CONTROL        &trans        &trans        &trans  &out OUT_TOG  &kp CAPSLOCK    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+      &kp LSHIFT        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans   &trans   &trans   &trans
+                                                    &trans        &trans        &trans    &trans  &trans  &trans
             >;
         };
     };
